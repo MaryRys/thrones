@@ -2,13 +2,13 @@ body {
     background-color: grey;
 }
 
-.character {
+.character-card {
     display: inline-block;
 }
 
 .card-img-top {
     height: 280px;
-    width: 280px;
+    width: 100%;
     object-fit: cover;
     object-position: 0 0;
     
