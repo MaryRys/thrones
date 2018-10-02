@@ -1,4 +1,5 @@
 import {printToDom} from '../helpers/util.js';
+import {detailsBuilder} from './detail.js';
 
 const characters = [{
     id: 'character1', 
@@ -28,9 +29,8 @@ const characters = [{
 
 const characterClick = (e) => {
     const characterId = e.target.closest('.character-card').id;
-    const currentCharacter = characters.find(x) => {
-        return x.id === characterId
-    }
+    const currentCharacter = characters.find(x => x.id === characterId);
+    detailsBuilder(currentCharacter);
     console.log('currentCharacter', currentCharacter);
 };
 
@@ -56,5 +56,6 @@ const charactersBuiler = () => {
     printToDom(domString);
     createEvents();
 };
+
 
 export {charactersBuiler};
