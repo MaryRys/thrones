@@ -1,4 +1,4 @@
-import { printToDom } from "../helpers/util.js";
+import {printToDom} from "../helpers/util.js";
 import {charactersBuilder} from "./characters.js";
 
 const closeButtonEvent = () => {
@@ -11,7 +11,7 @@ const detailsBuilder = (character) => {
     let domString = '';
     domString += `<div class="col-6 offset-md-3">`;
     domString += `<div class="row">`;
-    domString += `<button class="btn btn-danger">x</button>`;
+    domString += `<button id="close" class="btn btn-danger">x</button>`;
     domString += `</div>`;
     domString += `<div class="row">`;
     domString += `<div class="col">`;
