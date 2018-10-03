@@ -41,7 +41,7 @@ const createEvents = () => {
     }
 };
 
-const charactersBuiler = () => {
+const charactersBuilder = () => {
     let domString = '';
         characters.forEach((character) => {
         domString += `<div class="col-2 character-card" id="${character.id}">`;
@@ -58,4 +58,4 @@ const charactersBuiler = () => {
 };
 
 
-export {charactersBuiler};
+export {charactersBuilder};
