@@ -1,0 +1,64 @@
+{
+    "characters": [
+        {
+        "id": "character1", 
+        "name": "Daenerys Targaryen", 
+        "house": "Targaryen", 
+        "imgURL": "https://vignette.wikia.nocookie.net/gameofthrones/images/5/5f/Daenerys_Dragonpit.jpg/revision/latest?cb=20171015095128"
+        },
+        {
+        "id": "character2",
+        "name": "Jon Snow",
+        "house": "Stark",
+        "imgURL": "https://vignette.wikia.nocookie.net/gameofthrones/images/a/a5/Profile-JonSnow-707.png/revision/latest?cb=20170828030553"
+        },
+        {
+        "id": "character3",
+        "name": "Cersei Lannister",
+        "house": "Lannister",
+        "imgURL": "https://vignette.wikia.nocookie.net/gameofthrones/images/c/c3/Profile-CerseiLannister.png/revision/latest?cb=20170828071355"
+        },
+        {
+        "id": "character4",
+        "name": "Samwell Tarly",
+        "house": "Tarly",
+        "imgURL": "https://vignette.wikia.nocookie.net/gameofthrones/images/e/e9/Sam_at_Winterfell.jpg/revision/latest?cb=20170903200558"
+        },
+        {
+        "id": "character5",
+        "name": "Tyrion Lannister",
+        "house": "Lannister",
+        "imgURL":"https://imagesvc.timeincapp.com/v3/fan/image?url=https://winteriscoming.net/wp-content/blogs.dir/385/files/2017/05/peter-dinklage-as-tyrion-lannister_38ug.640-630x344.jpg&c=sc&w=630&h=344"
+        },
+        {
+        "id": "character6",
+        "name": "Sansa Stark",
+        "house": "Stark",
+        "imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/SophieTurnerasSansaStark.jpg/220px-SophieTurnerasSansaStark.jpg"
+        }, 
+        {
+        "id": "character7",
+        "name": "Arya Stark",
+        "house": "Stark",
+        "imgURL": "https://vignette.wikia.nocookie.net/gameofthrones/images/5/54/Arya_the_dragon_and_the_wolf_s7.jpg/revision/latest?cb=20170828062911"
+        },
+        {
+        "id": "character8",
+        "name": "Eddard Stark",
+        "house": "Stark",
+        "imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Ned_Stark-Sean_Bean.jpg/220px-Ned_Stark-Sean_Bean.jpg"
+        },
+        {
+        "id": "character9",
+        "name": "Jamie Lannister",
+        "house": "Lannister",
+        "imgURL": "https://vignette.wikia.nocookie.net/gameofthrones/images/e/eb/Jaime.jpg/revision/latest?cb=20170818052054"
+        },
+        {
+        "id": "character10",
+        "name": "Ghost",
+        "house": "Stark",
+        "imgURL": "https://cdn3.whatculture.com/images/2017/08/affb9aa5e0a44d92-600x400.jpg"
+        }
+    ]
+}
