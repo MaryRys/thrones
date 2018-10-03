@@ -1,7 +1,8 @@
-import {charactersBuiler} from './Components/characters.js';
+import {getCharacters} from './data/charactersData.js';
+
 
 const initializeApp = () => {
-        charactersBuiler();
+        getCharacters();
 };
 
 initializeApp();
