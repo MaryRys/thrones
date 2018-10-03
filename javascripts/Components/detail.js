@@ -3,7 +3,7 @@ import {charactersBuilder} from "./characters.js";
 
 const closeButtonEvent = () => {
     const closeButton = document.getElementById('close');
-    closeButton.addEventListener('click', )
+    closeButton.addEventListener('click', charactersBuilder);
 };
 
 const detailsBuilder = (character) => {
@@ -24,6 +24,7 @@ const detailsBuilder = (character) => {
     domString += `</div>`;
 
     printToDom(domString);
+    closeButtonEvent();
 };
-closeButtonEvent();
+
 export {detailsBuilder};
